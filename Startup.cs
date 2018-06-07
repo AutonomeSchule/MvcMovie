@@ -30,7 +30,6 @@ namespace MvcMovie
             /// marco added
             services.AddDbContext<MvcMovieContext>(options =>
             options.UseSqlite("Data Source=MvcMovie.db"));
-
         }
 
 
